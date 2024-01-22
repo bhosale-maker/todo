@@ -1,0 +1,19 @@
+table { border-collapse:collapse }
+
+#todoTable{
+    border: 2px solid gray; 
+    border-radius:20px;
+    -webkit-border-radius: 20px;
+    border-collapse: separate !important;
+}
+
+#todoTable th{
+    border-bottom: 1px solid gray;
+}
+#todoTable tr{
+    border-bottom: 1px solid red;
+}
+
+#todoTable tr td:nth-child(6) {
+    font-weight: bold;
+}
